@@ -1,0 +1,51 @@
+#title{
+    color: aquamarine;
+    border-radius: 10px;
+}
+.roboto-mono-#title{
+    font-family: "Roboto Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+  }
+  
+#paragragh{
+    color: aqua;
+    border-radius: 10px;
+    font-family: "Roboto Mono", monospace;
+}
+#h3{
+    color: purple;
+    border-radius: 10px;
+}
+#art_button1{
+    color: aqua;
+    background-color: darkslateblue;
+    width: 100px;
+    font-size: large;
+    font-weight:bold ;
+}
+.menu{
+    background: black;
+    text-align: center;
+}
+.items{
+    display:inline;
+    list-style:none;
+    padding-left:30px;
+    padding-right: 30px;
+    font-family: monospace;
+    font-size: 20px;
+    float: right;
+text-decoration: ;
+color:black ;
+}
+.items:hover{
+    font-size: 30px;
+text-decoration: underline;
+}
+.my_nav_bar{
+    position:sticky;
+    top:0;
+z-index: 10000;
+}
